@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinayak Mandare</title>
+    <link rel="icon" href="vinu.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+</head>
+<body>
+    
+  
+    <div class="navbar">
+     <ul>
+      <p>Vinayak Mandare</p>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <i class="fa-solid fa-bars"></i>
+     </ul>
+     
+    </div>
+       <!-- particles.js container --> 
+<div id="particles-js"></div>
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <div id="Home">
+      <div class="container">
+        <p>Hello,</p>
+        <h1>I am <span>Vinayak</span></h1>
+      
+        <h2>I am a,</h2>
+        <div class="text_container">
+        <div id="autoTypeText"></div>
+        <div class="contact">
+           <button > <a href="#Contact"><i class="fa-solid fa-phone"></i>  Contact</button></a>
+        </div>
+
+  </div>
+  <div class="icon">
+    <a href="https://www.instagram.com/vinayakmandare/"><i class="fa-brands fa-instagram"></i></a>
+   <a href="https://wa.me/918605274923"> <i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://t.me/Vinayakmandare"><i class="fa-brands fa-telegram"></i></a>
+    <a href="https://www.facebook.com/vinayak.mandare.1/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/in/vinayak-mandare-a88993247/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="mailto:vinayakmandare21@gmail.com"><i class="fas fa-envelope"></i> </a><!-- Envelope icon -->
+    
+
+    
+  </div>
+  <div class="img">
+  <img src="Vinu.png" alt="">
+  </div>
+    </div>
+    </div>
+    
+    <div id="particles-js1"></div>
+    
+    <div id="About">
+        <div class="container2">
+
+        <h2>About Me</h2>
+       
+       <img src="Vinu.png" alt="">
+        <div class="info">
+
+        <p>
+            Welcome to my portfolio! I'm Vinayak, a passionate web developer with a strong background 
+            in front-end and back-end technologies. My journey in the world of coding began with a love for 
+            creating beautiful and functional websites.
+        </p>
+        <p>
+            I have expertise in HTML, CSS, JavaScript, and various web development frameworks. My goal is 
+            to leverage my skills to deliver high-quality and user-friendly web solutions.
+        </p>
+        <p>
+            Outside of coding, I enjoy Music , Travelling  and I'm always excited to take on new 
+            challenges and expand my knowledge in the ever-evolving field of web development.
+        </p>
+        </div>
+    </div>
+    </div>
+
+<div id="particles-js2"></div>
+
+        <div id="Skills">
+          <div class="container3">
+            <h2>Skills</h2>
+            <p>
+              I bring a versatile skill set encompassing both technical expertise and strong interpersonal abilities.
+               Proficient in programming languages such as Python and Java, I have a solid foundation in web development 
+               and database management. My proficiency extends to project management, where I leverage agile methodologies 
+               to deliver results efficiently. In addition to my technical prowess, I possess excellent communication and 
+               collaboration skills, fostering effective teamwork and client relationships. I am adept at problem-solving 
+               and thrive in dynamic environments, demonstrating adaptability and a commitment to continuous learning. 
+               Holding certifications in [relevant certifications], I am dedicated to staying at the forefront of industry 
+               advancements. With a creative mindset and a keen eye for detail, I have successfully contributed to the design 
+               and implementation of innovative solutions in my previous roles. My commitment to excellence, combined with a 
+               passion for staying current with industry trends, positions me as a valuable asset in any collaborative and 
+               forward-thinking project."
+            </p>
+            <div class="bar_container">
+            <div class="skill">
+              <div class="skill-name">HTML 80%</div>
+              <div class="skill-bar">
+                <div class="skill-level" id="htmlSkill"></div>
+
+              </div>
+            </div>
+            <!-- Add similar blocks for other skills -->
+            <div class="skill">
+              <div class="skill-name">CSS 70%</div>
+              <div class="skill-bar">
+                <div class="skill-level1" id="CSSSkill"></div>
+
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">JAVASCRIPT 50%</div>
+              <div class="skill-bar">
+                <div class="skill-level2" id="jsSkill"></div>
+
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">PHP 40%</div>
+              <div class="skill-bar">
+                <div class="skill-level3" id="PHPSkill"></div>
+
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">MySQL 50%</div>
+              <div class="skill-bar">
+                <div class="skill-level4" id="MySQLSkill"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // Add more skills and levels as needed
+          setSkillLevel("htmlSkill", 80); // Example: HTML proficiency is 90%
+          setSkillLevel("CSSSkill", 70);
+          setSkillLevel("jsSkill", 50);
+          setSkillLevel("PHPSkill", 40);
+          setSkillLevel("MySQLSkill", 50);
+
+          // ...
+        
+          function setSkillLevel(skillId, proficiency) {
+            const skillElement = document.getElementById(skillId);
+            skillElement.style.width = proficiency + "%";
+          }
+        });
+        
+        </script>
+       
+
+       <div id="particles-js3"></div>
+    <div id="Contact">
+      
+      <h1>Contact</h1>
+    <div class="container4">
+     
+      <form id="contactForm">
+        <h2 style="color:gray">Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="8" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+      
+      
+    </div>
+   
+
+    </div>
+</div>
+<div class="page_up"> 
+<a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
+</div>
+
+<div class="particle-container" id="particle-container"></div>
+
+    <script>
+        // Optional: You can use JavaScript to dynamically set the text content.
+        const textElement = document.getElementById('autoTypeText');
+        const textContent = "Web Developer";
+      
+
+        // Set the initial text content
+        textElement.textContent = textContent;
+
+        // You can also change the text dynamically using JavaScript
+        // For example, textElement.textContent = "New text content";
+
+        // The typing animation is achieved using CSS keyframes.
+    </script>
+    
+      
+        
+<script>
+    particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 455,
+      "density": {
+        "enable": true,
+        "value_area": 789.1476416322727
+      }
+    },
+    "color": {
+      "value": "#000"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#0000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 50
+      }
+    },
+    "opacity": {
+      "value": 0.48927153781200905,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 0.2,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 2,
+        "size_min": 0,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.2,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 83.91608391608392,
+        "size": 1,
+        "duration": 3,
+        "opacity": 1,
+        "speed": 10
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 1
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+      
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const particleContainer = document.getElementById("particle-container");
+
+    function createParticle() {
+        const particle = document.createElement("div");
+        particle.className = "particle";
+        particle.style.left = Math.random() * 100 + "vw";
+        particle.style.animationDuration = Math.random() * 4 + 2 + "s";
+
+        particleContainer.appendChild(particle);
+
+        particle.addEventListener("animationend", () => {
+            particle.remove();
+        });
+    }
+
+    function loop() {
+        createParticle();
+        setTimeout(loop, Math.random() * 4000); // Adjusted timeout for less frequent bubbles
+    }
+
+    loop();
+});
+
+
+  </script>
+  
+        
+<script>
+  particlesJS("particles-js1", {
+"particles": {
+  "number": {
+    "value": 355,
+    "density": {
+      "enable": true,
+      "value_area": 789.1476416322727
+    }
+  },
+  "color": {
+    "value": "#fff"
+  },
+  "shape": {
+    "type": "circle",
+    "stroke": {
+      "width": 0,
+      "color": "#000"
+    },
+    "polygon": {
+      "nb_sides": 5
+    },
+    "image": {
+      "src": "img/github.svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  "opacity": {
+    "value": 0.48927153781200905,
+    "random": false,
+    "anim": {
+      "enable": true,
+      "speed": 0.2,
+      "opacity_min": 0,
+      "sync": false
+    }
+  },
+  "size": {
+    "value": 2,
+    "random": true,
+    "anim": {
+      "enable": true,
+      "speed": 2,
+      "size_min": 0,
+      "sync": false
+    }
+  },
+  "line_linked": {
+    "enable": false,
+    "distance": 150,
+    "color": "#ffffff",
+    "opacity": 0.4,
+    "width": 1
+  },
+  "move": {
+    "enable": true,
+    "speed": 0.2,
+    "direction": "none",
+    "random": true,
+    "straight": false,
+    "out_mode": "out",
+    "bounce": false,
+    "attract": {
+      "enable": false,
+      "rotateX": 600,
+      "rotateY": 1200
+    }
+  }
+},
+"interactivity": {
+  "detect_on": "canvas",
+  "events": {
+    "onhover": {
+      "enable": true,
+      "mode": "bubble"
+    },
+    "onclick": {
+      "enable": true,
+      "mode": "push"
+    },
+    "resize": true
+  },
+  "modes": {
+    "grab": {
+      "distance": 400,
+      "line_linked": {
+        "opacity": 1
+      }
+    },
+    "bubble": {
+      "distance": 83.91608391608392,
+      "size": 1,
+      "duration": 3,
+      "opacity": 1,
+      "speed": 3
+    },
+    "repulse": {
+      "distance": 200,
+      "duration": 0.4
+    },
+    "push": {
+      "particles_nb": 4
+    },
+    "remove": {
+      "particles_nb": 2
+    }
+  }
+},
+"retina_detect": true
+});
+</script>
+    
+     
+<script>
+  particlesJS("particles-js2", {
+"particles": {
+  "number": {
+    "value": 355,
+    "density": {
+      "enable": true,
+      "value_area": 789.1476416322727
+    }
+  },
+  "color": {
+    "value": "#000"
+  },
+  "shape": {
+    "type": "circle",
+    "stroke": {
+      "width": 0,
+      "color": "#000000"
+    },
+    "polygon": {
+      "nb_sides": 5
+    },
+    "image": {
+      "src": "img/github.svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  "opacity": {
+    "value": 0.48927153781200905,
+    "random": false,
+    "anim": {
+      "enable": true,
+      "speed": 0.2,
+      "opacity_min": 0,
+      "sync": false
+    }
+  },
+  "size": {
+    "value": 2,
+    "random": true,
+    "anim": {
+      "enable": true,
+      "speed": 2,
+      "size_min": 0,
+      "sync": false
+    }
+  },
+  "line_linked": {
+    "enable": false,
+    "distance": 150,
+    "color": "#ffffff",
+    "opacity": 0.4,
+    "width": 1
+  },
+  "move": {
+    "enable": true,
+    "speed": 0.2,
+    "direction": "none",
+    "random": true,
+    "straight": false,
+    "out_mode": "out",
+    "bounce": false,
+    "attract": {
+      "enable": false,
+      "rotateX": 600,
+      "rotateY": 1200
+    }
+  }
+},
+"interactivity": {
+  "detect_on": "canvas",
+  "events": {
+    "onhover": {
+      "enable": true,
+      "mode": "bubble"
+    },
+    "onclick": {
+      "enable": true,
+      "mode": "push"
+    },
+    "resize": true
+  },
+  "modes": {
+    "grab": {
+      "distance": 400,
+      "line_linked": {
+        "opacity": 1
+      }
+    },
+    "bubble": {
+      "distance": 83.91608391608392,
+      "size": 1,
+      "duration": 3,
+      "opacity": 1,
+      "speed": 3
+    },
+    "repulse": {
+      "distance": 200,
+      "duration": 0.4
+    },
+    "push": {
+      "particles_nb": 4
+    },
+    "remove": {
+      "particles_nb": 2
+    }
+  }
+},
+"retina_detect": true
+});
+</script>
+
+    
+<script>
+  particlesJS("particles-js3", {
+"particles": {
+  "number": {
+    "value": 355,
+    "density": {
+      "enable": true,
+      "value_area": 789.1476416322727
+    }
+  },
+  "color": {
+    "value": "#000"
+  },
+  "shape": {
+    "type": "circle",
+    "stroke": {
+      "width": 0,
+      "color": "#000000"
+    },
+    "polygon": {
+      "nb_sides": 5
+    },
+    "image": {
+      "src": "img/github.svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  "opacity": {
+    "value": 0.48927153781200905,
+    "random": false,
+    "anim": {
+      "enable": true,
+      "speed": 0.2,
+      "opacity_min": 0,
+      "sync": false
+    }
+  },
+  "size": {
+    "value": 2,
+    "random": true,
+    "anim": {
+      "enable": true,
+      "speed": 2,
+      "size_min": 0,
+      "sync": false
+    }
+  },
+  "line_linked": {
+    "enable": false,
+    "distance": 150,
+    "color": "#ffffff",
+    "opacity": 0.4,
+    "width": 1
+  },
+  "move": {
+    "enable": true,
+    "speed": 0.2,
+    "direction": "none",
+    "random": true,
+    "straight": false,
+    "out_mode": "out",
+    "bounce": false,
+    "attract": {
+      "enable": false,
+      "rotateX": 600,
+      "rotateY": 1200
+    }
+  }
+},
+"interactivity": {
+  "detect_on": "canvas",
+  "events": {
+    "onhover": {
+      "enable": true,
+      "mode": "bubble"
+    },
+    "onclick": {
+      "enable": true,
+      "mode": "push"
+    },
+    "resize": true
+  },
+  "modes": {
+    "grab": {
+      "distance": 400,
+      "line_linked": {
+        "opacity": 1
+      }
+    },
+    "bubble": {
+      "distance": 83.91608391608392,
+      "size": 1,
+      "duration": 3,
+      "opacity": 1,
+      "speed": 3
+    },
+    "repulse": {
+      "distance": 200,
+      "duration": 0.4
+    },
+    "push": {
+      "particles_nb": 4
+    },
+    "remove": {
+      "particles_nb": 2
+    }
+  }
+},
+"retina_detect": true
+});
+</script>
+    
+      
+</body>
+</html>
